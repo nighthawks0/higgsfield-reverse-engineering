@@ -1,0 +1,11 @@
+node_modules
+out
+.env
+*.log
+.DS_Store
+*.mp4
+*.wav
+*.png
+*.json
+__pycache__
+*.pyc

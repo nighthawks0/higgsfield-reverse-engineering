@@ -1,0 +1,27 @@
+{
+  "name": "higgsfield-reverse",
+  "version": "1.0.0",
+  "description": "Reverse-engineered Higgsfield features (Genjutsu, Lipsync, Soul ID, Enhance) with Remotion + Modal",
+  "repository": {},
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@remotion/cli": "^4.0.532",
+    "@remotion/renderer": "^4.0.532",
+    "@remotion/tailwind-v4": "^4.0.532",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "remotion": "^4.0.532",
+    "tailwindcss": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.7",
+    "typescript": "5.9.3"
+  },
+  "scripts": {
+    "dev": "remotion studio",
+    "build": "remotion bundle",
+    "render": "remotion render"
+  }
+}
